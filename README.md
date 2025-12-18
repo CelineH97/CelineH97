@@ -9,7 +9,7 @@
 <div align="center">
     <h3>👨‍💻 À propos de moi</h3>
     <p>
-        Développeuse passionnée par la performance et les architectures complexes.<br>
+        Développeuse Python passionnée par la performance et les architectures complexes.<br>
         J'aime construire des outils qui allient <b>traitement de données avancé</b> et <b>expérience utilisateur fluide</b>.
     </p>
 </div>
@@ -34,9 +34,9 @@
 
 | Projet | Description | Stack |
 | :--- | :--- | :--- |
-| **🃏 [DeckKeeper]** | **Scan et gestion de collection TCG temps réel.**<br>Moteur de reconnaissance hybride Front/Back optimisé (< 200ms) avec indexation VP-Tree. | `React` `FastAPI` `OpenCV` `Docker` |
-| **🕸️ [PEGSGraph]** | **Caractérisation rapide des séismes.**<br>Implémentation du modèle de Deep Learning (GNN) basé sur les signaux élastogravitaires (lié à la publication JGR). | `Python` `PyTorch` `GNN` |
-
+| **🃏 [DeckKeeper] (Private)** | **Scan et gestion de collection TCG temps réel.**<br>Moteur de reconnaissance hybride Front/Back optimisé avec l'IA YOLO-seg. | `React` `FastAPI` `OpenCV` `Docker` |
+| **🕸️ [PEGSGraph] (Private)** | **Caractérisation rapide des séismes.**<br>Implémentation du modèle de Deep Learning (GNN) basé sur les signaux élastogravitaires. | `Python` `PyTorch` `GNN` |
+| **💥 [Discrimination EQ/Q](https://gitlab.univ-nantes.fr/E181658E/discrimination_eq_q)** | **Classification Séismes/Explosions.**<br>Code source officiel de la méthode CNN pour discriminer les tirs de carrière des séismes naturels. | `Python` `Keras` `Tensorflow` `CNN` |
 <br>
 
 ### 📝 Publications & Recherche
@@ -54,9 +54,14 @@ J'applique des méthodes de **Deep Learning** (CNN, GNN) pour résoudre des prob
 
 **New CNN-based tool to discriminate anthropogenic from natural seismic events** *Geophysical Journal International (2023)* > Développement d'un outil basé sur les réseaux de neurones convolutifs (CNN) pour distinguer les séismes naturels des événements anthropiques (bruit humain).
 
-<a href="https://academic.oup.com/gji/article/232/3/2119/6819951?login=true" target="_blank">
-  <img src="https://img.shields.io/badge/Lire_l'article-1D1D1D?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Read Paper">
-</a>
+<div style="display: flex; gap: 10px;">
+  <a href="https://academic.oup.com/gji/article/232/3/2119/6819951?login=true" target="_blank">
+    <img src="https://img.shields.io/badge/Lire_l'article-1D1D1D?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Read Paper">
+  </a>
+  <a href="https://gitlab.univ-nantes.fr/E181658E/discrimination_eq_q" target="_blank">
+    <img src="https://img.shields.io/badge/Voir_le_Code-GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab Repo">
+  </a>
+</div>
 
 <br><br>
 
